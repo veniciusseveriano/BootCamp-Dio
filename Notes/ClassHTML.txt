@@ -1,0 +1,31 @@
+Lesson 1 - Basic structure of HTML 5:
+
+   • The element is the basis of HTML, so it has the opening tag, the attribute, the content and the closing tag. Ex: <h1 class="title"</h1>
+   
+   • Its basic structure is: <!DOCTYPE html>
+                             <html lang="pt-br">
+                              <head>
+                                <title>Page Title</title>
+                                <meta charset="utf-8">
+                              </head>
+                              <body>
+                                Here is the HTML code that will make your site appear.
+                              </body>
+                             </html>
+
+   • My first practice with HTML, I do in app VSCODE, and I do an site that shows only my name on head of site, and on his body I put the phrase "Venícius Severiano is a owner of Leon and love the Twilight Saga"
+   
+   • The code stayed thus:  <!DOCTYPE html>
+                             <html lang="pt-br">
+                              <head>
+                                <meta charset="utf-8">
+                                <title>Venícius Severiano</title>
+                              </head>
+                              <body>
+                                Venícius Severiano is a owner of Leon and love the Twilight Saga
+                              </body>
+                             </html>
+
+Lesson 2 - Semantic part 1: 
+
+   • 

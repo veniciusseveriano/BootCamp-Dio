@@ -1,0 +1,13 @@
+To add any repository changes from Git to GitHub, one must:
+
+1°) use the command: git add <file>
+
+2°) use the command: git commit -m "comment"
+
+3°) use the command: git push origin main
+
+With that, as soon as you press F5 on your GitHub, your remote repository will be up to date with the local one.
+
+PS: If you just want to update some file, be it text, or even a folder, repeat the process from the beginning.
+
+By Venicius :)
