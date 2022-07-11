@@ -28,4 +28,41 @@ Lesson 1 - Basic structure of HTML 5:
 
 Lesson 2 - Semantic part 1: 
 
-   • 
+   • <section>. Represent an section generic of content, how a list of articles... 
+   • <header>. Represent the header of the page, or part of section
+   • <article>. Represent an relevant content of your page, how a blog article...
+   • <aside> Represent a content related with the main content of page, how an bio of author, related links...
+   • <footer> Represent an footnote of page, article, section...
+   • <h1>-<h6> Represent an semantic of page, how an title within a page. Exemple: <h1 title of page>, <h2 title of section>, <h3 title of article>... But it can only have one H1 per page
+
+Lesson 3 - Semantic part 2: 
+
+   • In this lesson I learned how to use the tags of the past lesson, and I put it on Vscode. 
+
+   • The code stayed thus: <!DOCTYPE html>
+                           <html>
+                            <head>
+                              <meta charset="utf-8">
+                              <title>Venícius Severiano</title>
+                            </head>
+                            <body>
+                            <header>
+                              <h1>Venícius Severiano</h1>
+                            </header>
+                            <section> 
+                              <header>
+                                 <h2>Posts</h2>
+                              </header>
+                              <article> 
+                                <header>
+                                  <h3>Post #1</h3>
+                                </header>
+                              </article>
+                            </section>
+                            <footer> </footer>
+                           </body>
+                          </html>
+
+• Lesson 4 - Tags for texts:
+
+   •
