@@ -65,4 +65,104 @@ Lesson 3 - Semantic part 2:
 
 • Lesson 4 - Tags for texts:
 
-   •
+   • For contents of texts larger, I use the element <p> Content </p> 
+   • It represent an paragrapher, but it don't support just text, but support other contents how images, videos...
+
+• Lesson 5 - Tags for links: 
+
+   • Other tag important for an site is the tag <a> link </a> 
+   • Represent an "anchor", so interconnecting various content on the web. 
+   • <a href= Content </a>, represent an hyperlink that your "anchor" is pointing to, how an page of site or an external site
+   • And it can be pointing to email or number phone, but you have to put an prefixe "mailto" for email, and "tel" for an number phone 
+   • <a target="_blank> LINK </a>, represent how this link go to open
+   • _blank represent that go open the link in an new tab
+
+• Lesson 6 - Practice exercise: 
+
+   • Now I go include the new tags that I learned on my code.
+
+   • The code stayed thus: 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Venícius Severiano</title>
+    </head>
+    <body>
+     <header>
+        <h1>Venícius Severiano</h1>
+     </header>
+     <section> 
+        <header>
+            <h2>Posts</h2>
+        </header>
+        <article> 
+            <header>
+                <h3>Post #1</h3>
+            </header>
+            <p> 
+                Lorem Ipsum is simply <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">dummy text of</a> the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a <a href="mailto: veniciusseveriano@gmail.com" target="_blank">of</a> type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
+     </section>
+     <footer> </footer>
+    </body>
+</html>
+
+• Lesson 7 - Tag img: 
+
+   • <img> its a tag to include image to our 
+   • <img src="img/avatar.jpg">,the atribute SCR ITS MANDATORY, because it stores the image path. 
+   • <img alt="Picture of Venicius">, it shows the description of photo when it doesn't load 
+
+• Lesson 8 - Practice exercise: 
+
+   • Now I go include the new tags that I learned on my code.
+
+   • The code stayed thus: 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Venícius Severiano</title>
+    </head>
+    <body>
+     <header>
+        <img src="venicius.jpg" alt="my photo :)" height="100" width="100"> 
+        <h1>Venícius Severiano</h1>
+     </header>
+     <section> 
+        <header>
+            <h2>Posts</h2>
+        </header>
+        <article> 
+            <header>
+                <h3>Post #1</h3>
+                <img src="dev.jpg" alt="photo" height="500" width="500">
+            </header>
+            <p> 
+                Lorem Ipsum is simply <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">dummy text of</a> the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a <a href="mailto: veniciusseveriano@gmail.com" target="_blank">of</a> type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
+     </section>
+     <footer> </footer>
+    </body>
+</html>
+
+• Lesson 9 - Tags Il, Ul and Ol:
+
+   • 
