@@ -165,4 +165,5 @@ Lesson 3 - Semantic part 2:
 
 • Lesson 9 - Tags Il, Ul and Ol:
 
-   • 
+   •  hi
+
