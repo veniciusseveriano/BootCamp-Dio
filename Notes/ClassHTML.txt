@@ -165,5 +165,68 @@ Lesson 3 - Semantic part 2:
 
 • Lesson 9 - Tags Il, Ul and Ol:
 
-   •  hi
+   • The tags <ul>, <ol> and <li>, refer to lists. 
 
+   • <ul> represent a list that order of itens is no important
+
+   • <ol> represent a list that a order of itens is important. And is represent like numbers Roman numeral...
+
+   • <li> represent a item of this list 
+
+• Lesson 10 - Practice exercise: 
+
+   • In this lesson I will go add a list of contacts on footer of site. 
+
+   • The code stayed thus: 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Venícius Severiano</title>
+    </head>
+    <body>
+     <header>
+        <img src="venicius.jpg" alt="my photo :)" height="100" width="100"> 
+        <h1>Venícius Severiano</h1>
+     </header>
+     <section> 
+        <header>
+            <h2>Posts</h2>
+        </header>
+        <article> 
+            <header>
+                <h3>Post #1</h3>
+                <img src="dev.jpg" alt="photo" height="500" width="500">
+            </header>
+            <p> 
+                Lorem Ipsum is simply <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">dummy text of</a> the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a <a href="mailto: veniciusseveriano@gmail.com" target="_blank">of</a> type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
+     </section>
+     <footer> 
+        <ul> 
+            <li>
+                <a href="mailto: veniciusseveriano@gmail.com" target="_blank">veniciusseveriano@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">linkedin</a>
+            </li>
+            <li>
+                <a href="https://github.com/veniciusseveriano/" target="_blank">GitHub</a>
+            </li>
+        </ul>
+     </footer>
+    </body>
+</html>
+
+
+So, the class of HTML is over for here. See you soon. Bye!!
+
+By Venicius :)
