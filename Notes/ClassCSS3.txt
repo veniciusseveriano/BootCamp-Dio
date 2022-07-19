@@ -1,0 +1,538 @@
+• In this class I will go use the same code from HTML Class, okay!!
+
+• Lesson 1 - Introduction to CSS3: 
+
+   • The CSS is a style language. 
+
+   • Your syntax can be summed "You create style rules for elements or groups of elements"
+
+   • The selector of type represent elements of HTML 
+
+   • ID and Class represent any type of elements.
+
+   • On HTLM the the id is represent with the word ID, and class with the word CLASS. 
+
+   • On CSS the id is represent with a "." And a class is represent with a "#"
+
+   • The code HTML looked like this: 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Venícius Severiano</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <header>
+        <img src="venicius.jpg" alt="my photo :)" height="100" width="100"> 
+        <h1 id="title">Venícius Severiano</h1>
+     </header>
+     <section> 
+        <header>
+            <h2 class="subtitle">Posts</h2>
+        </header>
+        <article> 
+            <header>
+                <h3 class="post_title">Post #1</h3>
+                <img src="dev.jpg" alt="photo" height="500" width="500">
+            </header>
+            <p> 
+                Lorem Ipsum is simply <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">dummy text of</a> the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a <a href="mailto: veniciusseveriano@gmail.com" target="_blank">of</a> type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
+     </section>
+     <footer> 
+        <ol> 
+            <li>
+                <a href="mailto: veniciusseveriano@gmail.com" target="_blank">veniciusseveriano@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">linkedin</a>
+            </li>
+            <li>
+                <a href="https://github.com/veniciusseveriano/" target="_blank">GitHub</a>
+            </li>
+        </ol>
+     </footer>
+    </body>
+</html>
+
+
+   • The code CSS looked like this: 
+
+#title{
+    color: blue;
+}
+
+.subtitle{
+    color: blue;
+
+}
+
+.post_title{
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+}
+
+• Lesson 2 - Basic conceits: 
+
+   • Box Model 
+
+   • Margin: is the space between the elements 
+   • Border: is around the padding and content 
+   • Padding: is space between the border and content 
+   • Content: is what your block represents 
+
+   • And I add the new tags. 
+
+   • The code HTML like this: 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Venícius Severiano</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <header>
+        <img src="venicius.jpg" alt="my photo :)" height="100" width="100"> 
+        <h1 id="title">Venícius Severiano</h1>
+     </header>
+     <section> 
+        <header>
+            <h2 class="subtitle">Posts</h2>
+        </header>
+        <article class="post"> 
+            <header>
+                <h3 class="post_title">Post #1</h3>
+                <img src="dev.jpg" alt="photo" height="500" width="500">
+            </header>
+            <p> 
+                Lorem Ipsum is simply <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">dummy text of</a> the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a <a href="mailto: veniciusseveriano@gmail.com" target="_blank">of</a> type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
+     </section>
+     <footer> 
+        <ol> 
+            <li>
+                <a href="mailto: veniciusseveriano@gmail.com" target="_blank">veniciusseveriano@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">linkedin</a>
+            </li>
+            <li>
+                <a href="https://github.com/veniciusseveriano/" target="_blank">GitHub</a>
+            </li>
+        </ol>
+     </footer>
+    </body>
+</html>
+
+   
+   • The code CSS like this: 
+
+body{ 
+    background-color: azure;
+}
+
+#title{
+    color: blue;
+}
+
+.subtitle{
+    color: blue;
+
+}
+
+.post_title{
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.post{
+    background-color: white;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+Lesson 3 - Styling elements: 
+
+   • In tag padding I can put the value of margin, how to axle X, axle Y. 
+
+   • Border can have 3 elements variable, width, color and style
+
+   • The code HTML like this: 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Venícius Severiano</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <header>
+        <img src="venicius.jpg" alt="my photo :)" height="100" width="100" class="photo"> 
+        <h1 id="title">Venícius Severiano</h1>
+     </header>
+     <section> 
+        <header>
+            <h2 class="subtitle">Posts</h2>
+        </header>
+        <article class="post"> 
+            <header>
+                <h3 class="post_title">Post #1</h3>
+                <img src="dev.jpg" alt="photo" height="500" width="500" class="post_image">
+            </header>
+            <p class="post_content"> 
+                Lorem Ipsum is simply <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">dummy text of</a> the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a <a href="mailto: veniciusseveriano@gmail.com" target="_blank">of</a> type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
+     </section>
+     <footer> 
+        <ol> 
+            <li>
+                <a href="mailto: veniciusseveriano@gmail.com" target="_blank">veniciusseveriano@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">linkedin</a>
+            </li>
+            <li>
+                <a href="https://github.com/veniciusseveriano/" target="_blank">GitHub</a>
+            </li>
+        </ol>
+     </footer>
+    </body>
+</html>
+
+   • The code CSS like this: 
+
+body{ 
+    background-color: azure;
+}
+
+.photo{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+#title{
+    color: blue;
+}
+
+.subtitle{
+    color: blue;
+
+}
+
+.post_title{
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.post{
+    background-color: white;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+So
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.post_image{
+    margin-bottom: 15px;
+}
+
+
+Lesson 4 - Styling texts: 
+
+   • font-family change the style of text. 
+   • font-size change the appearance of text 
+   • font-weight change the weight of text, like bold...
+   • text-transform switches the texts between uppercase and lowercase 
+   • text-decoration is used to highlight some text
+   
+   • The code HTML like this: 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Venícius Severiano</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <header>
+        <img src="venicius.jpg" alt="my photo :)" height="100" width="100" class="photo"> 
+        <h1 id="title">Venícius Severiano</h1>
+     </header>
+     <section> 
+        <header>
+            <h2 class="subtitle">Posts</h2>
+        </header>
+        <article class="post"> 
+            <header>
+                <h3 class="post_title">Post #1</h3>
+                <img src="dev.jpg" alt="photo" height="500" width="500" class="post_image">
+            </header>
+            <p class="post_content"> 
+                Lorem Ipsum is simply <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">dummy text of</a> the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a <a href="mailto: veniciusseveriano@gmail.com" target="_blank">of</a> type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
+     </section>
+     <footer> 
+        <ul class="context_list"> 
+            <li>
+                <a href="mailto: veniciusseveriano@gmail.com" target="_blank">veniciusseveriano@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">Linkedin</a>
+            </li>
+            <li>
+                <a href="https://github.com/veniciusseveriano/" target="_blank">GitHub</a>
+            </li>
+        </ul>
+     </footer>
+    </body>
+</html>
+
+
+   • The code CSS like this: 
+
+
+body{ 
+    background-color: azure;
+    font-family: Verdana;
+}
+
+.photo{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+#title{
+    color: blue;
+}
+
+.subtitle{
+    color: blue;
+
+}
+
+.post_title{
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#title{ 
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: black;
+}
+
+.post{
+    background-color: white;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+
+}
+
+.post_image{
+    margin-bottom: 15px;
+}
+
+.context_list{ 
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.context_list li a { 
+   text-decoration: none;
+}
+
+
+Lesson 5 - Dimension and alignment: 
+
+   • The code HTML like this: 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Venícius Severiano</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <header>
+        <img src="venicius.jpg" alt="my photo :)" height="100" width="100" class="photo"> 
+        <h1 id="title">Venícius Severiano</h1>
+     </header>
+     <section> 
+        <header>
+            <h2 class="subtitle">Posts</h2>
+        </header>
+        <article class="post"> 
+            <header>
+                <h3 class="post_title">Post #1</h3>
+                <img src="dev.jpg" alt="photo" height="500" width="500" class="post_image">
+            </header>
+            <p class="post_content"> 
+                Lorem Ipsum is simply <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">dummy text of</a> the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a <a href="mailto: veniciusseveriano@gmail.com" target="_blank">of</a> type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </article>
+     </section>
+     <footer> 
+        <ul class="context_list"> 
+            <li>
+                <a href="mailto: veniciusseveriano@gmail.com" target="_blank">veniciusseveriano@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/veniciusseveriano/" target="_blank">Linkedin</a>
+            </li>
+            <li>
+                <a href="https://github.com/veniciusseveriano/" target="_blank">GitHub</a>
+            </li>
+        </ul>
+     </footer>
+    </body>
+</html>
+
+
+   • The code CSS like this: 
+
+
+body{ 
+    background-color: azure;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+#title{
+    color: blue;
+}
+
+.subtitle{
+    color: blue;
+
+}
+
+.post_title{
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#title{ 
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: black;
+}
+
+.post{
+    background-color: white;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+
+}
+
+.post_image{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.context_list{ 
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.context_list li a { 
+   text-decoration: none;
+}
+
+
+So, the class ending here. See you soon. Bye!!
+
+By Venicius :)
+
